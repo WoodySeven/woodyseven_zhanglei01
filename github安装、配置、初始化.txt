@@ -49,5 +49,5 @@
     git push -u origin master #将提交的文件推送到github前端页面
     
 
-9.重新拉取代码 git pull
+9.重新拉取代码 git pull git@github.com:WoodySeven/woodyseven_zhanglei01.git
     
