@@ -1,0 +1,53 @@
+﻿0.使用git.exe安装包，默认安装，git工具安装包下载地址：https://git-scm.com/downloads
+1.登录网站github.com 注册账号，邮箱
+2.登录邮箱，激活账号
+3.用邮箱登录github
+4.叫组织ower拉你进，会发邮件给你
+5.确认邮件加入组织
+6.创建一个项目New respository
+
+7.生成ssh pub秘钥：#此操作是关联工作电脑的，换电脑要重新操作
+    ssh-keygen -t rsa -b 4096 -C "youremail@qq.com"
+    进入电脑C:\Users\Administrator\.ssh\id_rsa.pub 拷贝粘贴到github网站 
+    github中settings 的 SSH and GPG keys 新增NEW SSH
+    
+8.创建一个文件夹如D:\github   #换电脑以下操作都要重新操作
+    右键打开git Bush
+    git init #初始化新建的文件夹为git包，执行此命令会生成.git目录
+
+    git add filename.txt #添加文件到本地文件库
+
+    git status #查看状态
+
+    git commit -m "information" #为本次提交文件操作的描述信息
+    #git commit的时候提示输入邮箱和用户名 如：
+        Administrator@ZMN-20171208TCU MINGW64 /d/GitHub/autotest7 (master)
+        $ git commit -m "my first commit homework"
+
+        *** Please tell me who you are.
+
+        Run
+
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your Name"
+
+        to set your account's default identity.
+        Omit --global to set the identity only in this repository.
+
+        fatal: empty ident name (for <(null)>) not allowed
+
+    git config --global user.email "you@example.com" #设置邮箱到你电脑 ， 换电脑要再次操作
+
+    git config --global user.name "Your Name" #设置用户名到你电脑， 换电脑要再次操作
+
+    git commit -m "information" #配置好电脑、用户名之后重新做提交操作
+
+    git remote add origin git@github.com:WoodySeven/woodyseven_zhanglei01.git  
+	#此命令只需操作一次，以后不用，这里要用SSH模式的，别用Http模式
+	#如果设置错了模式，git remote remove origin  删除远端配置
+
+    git push -u origin master #将提交的文件推送到github前端页面
+    
+
+9.重新拉取代码 git pull
+    
