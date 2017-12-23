@@ -1,0 +1,186 @@
+1514000452437	geckodriver	INFO	geckodriver 0.18.0
+1514000452504	geckodriver	INFO	Listening on 127.0.0.1:3241
+1514000454591	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1514000462815	Marionette	INFO	Listening on port 3248
+1514000463154	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4848] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4848] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1514000722181	geckodriver	INFO	geckodriver 0.18.0
+1514000722219	geckodriver	INFO	Listening on 127.0.0.1:3319
+1514000724415	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1514000732439	Marionette	INFO	Listening on port 3325
+1514000732889	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1514002305411	geckodriver	INFO	geckodriver 0.18.0
+1514002305438	geckodriver	INFO	Listening on 127.0.0.1:4144
+1514002307549	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1514002314146	Marionette	INFO	Listening on port 4150
+1514002315248	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514002325423	geckodriver	INFO	geckodriver 0.18.0
+1514002325486	geckodriver	INFO	Listening on 127.0.0.1:4184
+1514002327573	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1514002335598	Marionette	INFO	Listening on port 4190
+1514002336160	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514009441517	geckodriver	INFO	geckodriver 0.18.0
+1514009441552	geckodriver	INFO	Listening on 127.0.0.1:4578
+1514009443720	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1514009451626	Marionette	INFO	Listening on port 4584
+1514009451698	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3244] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3244] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1514009600192	geckodriver	INFO	geckodriver 0.19.1
+1514009600206	geckodriver	INFO	Listening on 127.0.0.1:4665
+1514009602440	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.oW8POUlFCCRN"
+1514009603289	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1514009604434	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2852] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2852] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1514009607757	Marionette	INFO	Listening on port 4671
+1514009608051	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514009608104	Marionette	DEBUG	Register listener.js for window 4294967297
+1514009608154	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514009608388	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514009608389	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514009609619	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cn.bing.com/"
+1514009609679	Marionette	DEBUG	Received DOM event "pageshow" for "http://cn.bing.com/"
+1514009610406	Marionette	DEBUG	Received DOM event "beforeunload" for "http://cn.bing.com/"
+1514009610612	Marionette	DEBUG	Received DOM event "pagehide" for "http://cn.bing.com/"
+1514009610614	Marionette	DEBUG	Received DOM event "unload" for "http://cn.bing.com/"
+1514009611277	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1514009611279	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1514009611281	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1514009611281	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967307"
+1514009611284	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cn.bing.com/search?q=samren+%E5%8D%9A%E5%AE%A2%E5%9B%AD&qs=n&form=QBLH&sp=-1&pq=samren+%E5%8D%9A%E5%AE%A2%E5%9B%AD&sc=0-0&sk=&cvid=127E1CABB59E4F0CAF92D775E9776C10"
+1514009611293	Marionette	DEBUG	Received DOM event "pageshow" for "http://cn.bing.com/search?q=samren+%E5%8D%9A%E5%AE%A2%E5%9B%AD&qs=n&form=QBLH&sp=-1&pq=samren+%E5%8D%9A%E5%AE%A2%E5%9B%AD&sc=0-0&sk=&cvid=127E1CABB59E4F0CAF92D775E9776C10"
+1514009611375	Marionette	INFO	New connections will no longer be accepted
+1514014506062	geckodriver	INFO	geckodriver 0.19.1
+1514014506087	geckodriver	INFO	Listening on 127.0.0.1:5911
+1514014508265	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.RSAWakMVYz4V"
+1514014509225	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1514014510490	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6288] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400FC,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/extension-process-script.js, line 339: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+1514014513885	Marionette	INFO	Listening on port 5918
+1514014514164	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514014514223	Marionette	DEBUG	Register listener.js for window 4294967297
+1514014514275	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514014514469	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514014514469	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514014514782	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cn.bing.com/"
+1514014514815	Marionette	DEBUG	Received DOM event "pageshow" for "http://cn.bing.com/"
+1514014515064	Marionette	DEBUG	Received DOM event "beforeunload" for "http://cn.bing.com/"
+1514014515218	Marionette	DEBUG	Received DOM event "pagehide" for "http://cn.bing.com/"
+1514014515218	Marionette	DEBUG	Received DOM event "unload" for "http://cn.bing.com/"
+1514014516536	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cn.bing.com/search?q=samren+%E5%8D%9A%E5%AE%A2%E5%9B%AD&go=%E6%8F%90%E4%BA%A4%E6%9F%A5%E8%AF%A2&qs=ds&form=QBLH"
+1514014516544	Marionette	DEBUG	Received DOM event "pageshow" for "http://cn.bing.com/search?q=samren+%E5%8D%9A%E5%AE%A2%E5%9B%AD&go=%E6%8F%90%E4%BA%A4%E6%9F%A5%E8%AF%A2&qs=ds&form=QBLH"
+1514014516768	Marionette	INFO	New connections will no longer be accepted
+1514014530412	geckodriver	INFO	geckodriver 0.19.1
+1514014530436	geckodriver	INFO	Listening on 127.0.0.1:5965
+1514014532599	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.0X1asn0ADpi8"
+1514014533628	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1514014535036	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8468] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8672] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8672] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1514014538534	Marionette	INFO	Listening on port 5971
+1514014538627	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514014538748	Marionette	DEBUG	Register listener.js for window 4294967297
+1514014538885	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514014539107	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514014539108	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514014539611	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cn.bing.com/"
+1514014539713	Marionette	DEBUG	Received DOM event "pageshow" for "http://cn.bing.com/"
+1514014540103	Marionette	DEBUG	Received DOM event "beforeunload" for "http://cn.bing.com/"
+1514014540244	Marionette	DEBUG	Received DOM event "pagehide" for "http://cn.bing.com/"
+1514014540246	Marionette	DEBUG	Received DOM event "unload" for "http://cn.bing.com/"
+1514014540428	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1514014540430	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1514014540431	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1514014540432	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967307"
+1514014541390	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cn.bing.com/search?q=samren+%E5%8D%9A%E5%AE%A2%E5%9B%AD&go=%E6%8F%90%E4%BA%A4%E6%9F%A5%E8%AF%A2&qs=ds&form=QBLH"
+1514014541396	Marionette	DEBUG	Received DOM event "pageshow" for "http://cn.bing.com/search?q=samren+%E5%8D%9A%E5%AE%A2%E5%9B%AD&go=%E6%8F%90%E4%BA%A4%E6%9F%A5%E8%AF%A2&qs=ds&form=QBLH"
+1514014541437	Marionette	INFO	New connections will no longer be accepted
+1514014567257	geckodriver	INFO	geckodriver 0.19.1
+1514014567305	geckodriver	INFO	Listening on 127.0.0.1:6019
+1514014569593	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.G12Uc8EUgO6Z"
+1514014570568	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1514014571724	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8984] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8984] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1514014574872	Marionette	INFO	Listening on port 6025
+1514014575025	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514014575108	Marionette	DEBUG	Register listener.js for window 6442450945
+1514014575192	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514014575398	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514014575398	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514014575898	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cn.bing.com/"
+1514014575917	Marionette	DEBUG	Received DOM event "pageshow" for "http://cn.bing.com/"
+1514014576183	Marionette	DEBUG	Received DOM event "beforeunload" for "http://cn.bing.com/"
+1514014576325	Marionette	DEBUG	Received DOM event "pagehide" for "http://cn.bing.com/"
+1514014576326	Marionette	DEBUG	Received DOM event "unload" for "http://cn.bing.com/"
+1514014576831	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cn.bing.com/search?q=samren+%E5%8D%9A%E5%AE%A2%E5%9B%AD&go=%E6%8F%90%E4%BA%A4%E6%9F%A5%E8%AF%A2&qs=ds&form=QBLH"
+1514014576843	Marionette	DEBUG	Received DOM event "pageshow" for "http://cn.bing.com/search?q=samren+%E5%8D%9A%E5%AE%A2%E5%9B%AD&go=%E6%8F%90%E4%BA%A4%E6%9F%A5%E8%AF%A2&qs=ds&form=QBLH"
+1514014578874	Marionette	INFO	New connections will no longer be accepted
+1514014652796	geckodriver	INFO	geckodriver 0.19.1
+1514014652828	geckodriver	INFO	Listening on 127.0.0.1:6078
+1514014654953	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.CTsg0lVveod7"
+1514014656008	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1514014657082	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8736] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8736] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1514014659895	Marionette	INFO	Listening on port 6084
+1514014660237	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514014660302	Marionette	DEBUG	Register listener.js for window 4294967297
+1514014660376	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514014660616	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514014660617	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514014661913	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cn.bing.com/"
+1514014661962	Marionette	DEBUG	Received DOM event "pageshow" for "http://cn.bing.com/"
+1514014662677	Marionette	DEBUG	Received DOM event "beforeunload" for "http://cn.bing.com/"
+1514014662813	Marionette	DEBUG	Received DOM event "pagehide" for "http://cn.bing.com/"
+1514014662814	Marionette	DEBUG	Received DOM event "unload" for "http://cn.bing.com/"
+1514014662943	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1514014662944	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1514014662945	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1514014662946	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967307"
+1514014663632	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cn.bing.com/search?q=samren+%E5%8D%9A%E5%AE%A2%E5%9B%AD&qs=n&form=QBLH&sp=-1&pq=samren+%E5%8D%9A%E5%AE%A2%E5%9B%AD&sc=0-0&sk=&cvid=6D5861F453344B2F9AC124B2AF8D9EAD"
+1514014663636	Marionette	DEBUG	Received DOM event "pageshow" for "http://cn.bing.com/search?q=samren+%E5%8D%9A%E5%AE%A2%E5%9B%AD&qs=n&form=QBLH&sp=-1&pq=samren+%E5%8D%9A%E5%AE%A2%E5%9B%AD&sc=0-0&sk=&cvid=6D5861F453344B2F9AC124B2AF8D9EAD"
+1514014665879	Marionette	INFO	New connections will no longer be accepted
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7456] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1514014696675	geckodriver	INFO	geckodriver 0.19.1
+1514014696702	geckodriver	INFO	Listening on 127.0.0.1:6139
+1514014698866	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.UME8DY0lmyD2"
+1514014699991	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1514014701774	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2320] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2320] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1514014705155	Marionette	INFO	Listening on port 6146
+1514014706273	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514014706432	Marionette	DEBUG	Register listener.js for window 4294967297
+1514014706527	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514014706773	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514014706774	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514014707305	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cn.bing.com/"
+1514014707336	Marionette	DEBUG	Received DOM event "pageshow" for "http://cn.bing.com/"
+1514014707786	Marionette	DEBUG	Received DOM event "beforeunload" for "http://cn.bing.com/"
+1514014707922	Marionette	DEBUG	Received DOM event "pagehide" for "http://cn.bing.com/"
+1514014707923	Marionette	DEBUG	Received DOM event "unload" for "http://cn.bing.com/"
+1514014708739	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cn.bing.com/search?q=samren+%E5%8D%9A%E5%AE%A2%E5%9B%AD&go=%E6%8F%90%E4%BA%A4%E6%9F%A5%E8%AF%A2&qs=ds&form=QBLH"
+1514014708752	Marionette	DEBUG	Received DOM event "pageshow" for "http://cn.bing.com/search?q=samren+%E5%8D%9A%E5%AE%A2%E5%9B%AD&go=%E6%8F%90%E4%BA%A4%E6%9F%A5%E8%AF%A2&qs=ds&form=QBLH"
+1514014710780	Marionette	INFO	New connections will no longer be accepted
