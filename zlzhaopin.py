@@ -40,29 +40,36 @@ class ZhiLianZhaoPin(unittest.TestCase):
         driver.find_element_by_link_text("职位搜索").click()
         driver.implicitly_wait(10)
         d1 = driver.find_element_by_id("KeyWord_kw2")
-        d1.send_keys("软件自动化测试")
-        time.sleep(2)
-        d1.send_keys(Keys.BACK_SPACE*7)
-        time.sleep(2)
-        d1.send_keys("自动化软件测试")
-        time.sleep(2)
+        # d1.send_keys("软件自动化测试")
+        # time.sleep(1)
+        # d1.send_keys(Keys.BACK_SPACE*7)
+        # time.sleep(1)
+        d1.send_keys("自动化软件测试工程师")
+        time.sleep(1)
         driver.find_element_by_class_name("doesSearch").click()#点击搜工作
         driver.implicitly_wait(10)
 
         # driver.find_element_by_xpath("//*[@id=\"newlist_list_content_table\"]/table[2]/tbody/tr[1]/td[1]/input").click()
         # driver.find_element_by_xpath("//*[@id=\"newlist_list_content_table\"]/table[3]/tbody/tr[1]/td[1]/input")
         #driver.find_element_by_xpath("//*[@id=\"newlist_list_content_table\"]/table[61]/tbody/tr[1]/td[1]/input")
-        def table_num():
-            list1 = list(range(2, 61, 2))
-            # list1=[2,4,6,8,10,12,14,16,18]
-            for number in list1:
-                driver.find_element_by_xpath(
-                    "//*[@id=\"newlist_list_content_table\"]/table[{0}]/tbody/tr[1]/td[1]/input".format(
-                        int(number))).click()
-                #print(number)
-        table_num()
-        driver.save_screenshot("image.png")
-        time.sleep(3)
+        d1 = driver.find_elements_by_xpath("//*[@id=\"newlist_list_content_table\"]/table")
+        n = list(range(2, len(d1), 2))
+        for i in n:
+            xpath1="//*[@id=\"newlist_list_content_table\"]/table[{}]".format(i)
+            # if driver.find_element_by_xpath(xpath1).find_element_by_link_text("富士康科技集团"):
+            driver.find_element_by_xpath("{}/descendant::input[@type='checkbox']".format(xpath1)).click()
+            # count += 1
+        # def table_num():
+        #     list1 = list(range(2, n, 2))
+        #     # list1=[2,4,6,8,10,12,14,16,18]
+        #     for number in list1:
+        #         driver.find_element_by_xpath(
+        #             "//*[@id=\"newlist_list_content_table\"]/table[{0}]/tbody/tr[1]/td[1]/input".format(
+        #                 int(number))).click()
+        #         #print(number)
+        # table_num()
+        # driver.save_screenshot("image.png")
+        # time.sleep(3)
 
 
 if __name__ == "__main__":
