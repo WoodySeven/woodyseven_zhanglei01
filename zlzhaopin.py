@@ -39,6 +39,14 @@ class ZhiLianZhaoPin(unittest.TestCase):
         time.sleep(2)
         driver.find_element_by_link_text("职位搜索").click()
         driver.implicitly_wait(10)
+        driver.find_element_by_id("buttonSelCity").click()
+        driver.find_element_by_id("c_buttonSelCity_530").click()#默认选择了北京，点击后取消选择北京
+        time.sleep(1)
+        driver.find_element_by_id("c_buttonSelCity_765").click()#城市选择深圳
+        time.sleep(1)
+        # driver.find_element_by_xpath("/html/body/div[15]/div[2]/div[1]/a[1]").click()#chrome点击确定
+        driver.find_element_by_xpath("html/body/div[6]/div[2]/div[1]/a[1]").click()#Firefox点击确定
+        time.sleep(1)
         d1 = driver.find_element_by_id("KeyWord_kw2")
         # d1.send_keys("软件自动化测试")
         # time.sleep(1)
@@ -49,27 +57,18 @@ class ZhiLianZhaoPin(unittest.TestCase):
         driver.find_element_by_class_name("doesSearch").click()#点击搜工作
         driver.implicitly_wait(10)
 
-        # driver.find_element_by_xpath("//*[@id=\"newlist_list_content_table\"]/table[2]/tbody/tr[1]/td[1]/input").click()
-        # driver.find_element_by_xpath("//*[@id=\"newlist_list_content_table\"]/table[3]/tbody/tr[1]/td[1]/input")
         #driver.find_element_by_xpath("//*[@id=\"newlist_list_content_table\"]/table[61]/tbody/tr[1]/td[1]/input")
         d1 = driver.find_elements_by_xpath("//*[@id=\"newlist_list_content_table\"]/table")
-        n = list(range(2, len(d1), 2))
+        n = list(range(2, len(d1), 1))
         for i in n:
             xpath1="//*[@id=\"newlist_list_content_table\"]/table[{}]".format(i)
-            # if driver.find_element_by_xpath(xpath1).find_element_by_link_text("富士康科技集团"):
-            driver.find_element_by_xpath("{}/descendant::input[@type='checkbox']".format(xpath1)).click()
-            # count += 1
-        # def table_num():
-        #     list1 = list(range(2, n, 2))
-        #     # list1=[2,4,6,8,10,12,14,16,18]
-        #     for number in list1:
-        #         driver.find_element_by_xpath(
-        #             "//*[@id=\"newlist_list_content_table\"]/table[{0}]/tbody/tr[1]/td[1]/input".format(
-        #                 int(number))).click()
-        #         #print(number)
-        # table_num()
-        # driver.save_screenshot("image.png")
-        # time.sleep(3)
+            t1 = driver.find_element_by_xpath("{}/tbody/tr/td[3]/a[1]".format(xpath1)).text
+            if not t1=="深圳市川石信息技术有限公司":
+                print(t1)
+                driver.find_element_by_xpath("{}/descendant::input[@type='checkbox']".format(xpath1)).click()
+                time.sleep(1)
+            else:
+                continue
 
 
 if __name__ == "__main__":
