@@ -44,8 +44,8 @@ class ZhiLianZhaoPin(unittest.TestCase):
         time.sleep(1)
         driver.find_element_by_id("c_buttonSelCity_765").click()#城市选择深圳
         time.sleep(1)
-        # driver.find_element_by_xpath("/html/body/div[15]/div[2]/div[1]/a[1]").click()#chrome点击确定
-        driver.find_element_by_xpath("html/body/div[6]/div[2]/div[1]/a[1]").click()#Firefox点击确定
+        searcha=driver.find_elements_by_xpath("//a[contains(@class,'orgButton')]")
+        searcha[1].click() #选择地区点击确定
         time.sleep(1)
         d1 = driver.find_element_by_id("KeyWord_kw2")
         # d1.send_keys("软件自动化测试")
@@ -60,15 +60,16 @@ class ZhiLianZhaoPin(unittest.TestCase):
         #driver.find_element_by_xpath("//*[@id=\"newlist_list_content_table\"]/table[61]/tbody/tr[1]/td[1]/input")
         d1 = driver.find_elements_by_xpath("//*[@id=\"newlist_list_content_table\"]/table")
         n = list(range(2, len(d1), 1))
-        for i in n:
-            xpath1="//*[@id=\"newlist_list_content_table\"]/table[{}]".format(i)
-            t1 = driver.find_element_by_xpath("{}/tbody/tr/td[3]/a[1]".format(xpath1)).text
-            if not t1=="深圳市川石信息技术有限公司":
-                print(t1)
-                driver.find_element_by_xpath("{}/descendant::input[@type='checkbox']".format(xpath1)).click()
-                time.sleep(1)
-            else:
-                continue
+        with open("add.txt", "wb") as fp:
+            for i in n:
+                xpath1="//*[@id=\"newlist_list_content_table\"]/table[{}]".format(i)
+                t1 = driver.find_element_by_xpath("{}/tbody/tr/td[3]/a[1]".format(xpath1)).text
+                if not t1=="深圳市川石信息技术有限公司":
+                    fp.write(t1.encode("utf-8")+b'\n')
+                    driver.find_element_by_xpath("{}/descendant::input[@type='checkbox']".format(xpath1)).click()
+                    time.sleep(1)
+                else:
+                    continue
 
 
 if __name__ == "__main__":
